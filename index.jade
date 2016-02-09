@@ -1,0 +1,72 @@
+-
+  var content = {
+    title: 'Masaki KOBAYASHI - mlab.info',
+    description: 'Profile page of Masaki KOBAYASHI',
+    keywords: 'Masaki KOBAYASHI, 小林 正樹, makky, 筑波大学, 森嶋研究室, クラウドソーシング'
+  }
+
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    meta('http-equiv'='X-UA-Compatible' 'content'='IE=edge')
+  
+    title= content.title
+    meta(name='title' content=content.title)
+    meta(property='og:title' content=content.title)
+    meta(property='og:site_name' content=content.title)
+    
+    meta(name='description' content=content.description)
+    meta(property='og:description' content=content.description)
+    
+    meta(name='keywords', content=content.keywords)
+    
+    meta(property='og:type' content='website')
+
+    meta(property='og:url' content='')
+      
+  body
+    header
+      h1 Masaki KOBAYASHI (小林 正樹)
+
+    article
+      section
+        h2 Profile
+        dl
+          dt Name
+          dd Masaki KOBAYASHI
+          
+          dt Date of birth
+          dd 1994/10/13
+          
+          dt Place of birth
+          dd Mito, Ibaraki Pref
+      
+      section
+        h2 Affiliation
+        ul
+          li Univercity of Tsukuba
+          li College of Knowleage and Library Sciences, School of Informatics (klis13)
+          li Morishima Laboratory
+          
+      section
+        h2 Contact
+        dl
+          dt Email
+          dd masaki.kobayashi.2016b :#: mlab.info
+          
+          dt Website
+          dd
+            a(href='http://makky.io', target='_blank') makky.io
+          
+          dt GitHub
+          dd
+            a(href='https://github.com/makky3939', target='_blank') github.com/makky3939
+
+    footer
+      p &copy;&nbsp;Masaki&nbsp;KOBAYASHI
+      p
+        |rendered by jade(source code:
+        a(href='https://github.com/makky3939', target='_blank') github.com/makky3939
+        |)
