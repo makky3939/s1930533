@@ -1,0 +1,19 @@
+{
+  "name": "s1311495",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makky3939/s1311495.git"
+  },
+  "author": "makky3939",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makky3939/s1311495/issues"
+  },
+  "homepage": "https://github.com/makky3939/s1311495#readme"
+}
