@@ -2,7 +2,7 @@
   var content = {
     title: 'Masaki KOBAYASHI',
     description: 'Profile page of Masaki KOBAYASHI',
-    keywords: 'Masaki KOBAYASHI, 小林 正樹, makky, 筑波大学, 森嶋研究室, クラウドソーシング'
+    keywords: 'Masaki KOBAYASHI, 小林 正樹, makky, makky3939, 筑波大学'
   }
 
 doctype html
@@ -66,7 +66,38 @@ html(lang='en')
     footer
       p
         |&copy; Masaki KOBAYASHI (Source code:
-        a(href='https://gist.github.com/makky3939/f590a62414ac69fee0c3', target='_blank') Gist
+        a(href='https://github.com/makky3939/s1311495', target='_blank') GitHub
         |)
 
     script!= "(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-73541046-1', 'auto');ga('send', 'pageview');"
+    
+    #task
+      #group_id(style='display: none') -1
+      #requester_id(style='display: none') 933
+      
+    script(src='http://crowd4u.org/js/jquery.js')
+    script.
+      $(function(){$.ajax({
+      type: "GET",
+      url: 'http://crowd4u.org/js/test.js',
+      dataType: "script",
+      xhrFields:{withCredentials: true},
+      crossDomain: true,
+      cache: false,
+      timeout: 1000,
+      error:function(){
+      	var message =  $("<p></p>");
+      	message.html("Crowd4U is under maintenance");
+      	$("#task").append(message);
+      },
+      success:function(data){
+          script_name = "http://crowd4u.org/js/get_task_remote.js"
+          $("<script>")
+              .attr("src", script_name)
+              .appendTo("head");
+
+           var css = $('<link rel="stylesheet" href="http://crowd4u.org/css/embedded_task.css">');
+           css.appendTo("head");
+      }
+      })
+      });
