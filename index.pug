@@ -24,7 +24,7 @@ html(lang='en')
     
     meta(property='og:type' content='website')
 
-    meta(property='og:url' content='http://www.u.tsukuba.ac.jp/~s1721668/')
+    meta(property='og:url' content='https://www.u.tsukuba.ac.jp/~s1721668/')
       
   body
     article
@@ -83,11 +83,11 @@ html(lang='en')
       #group_id(style='display: none') -1
       #requester_id(style='display: none') 933
       
-    script(src='http://crowd4u.org/js/jquery.js')
+    script(src='https://crowd4u.org/js/jquery.js')
     script.
       $(function(){$.ajax({
       type: "GET",
-      url: 'http://crowd4u.org/js/test.js',
+      url: 'https://crowd4u.org/js/test.js',
       dataType: "script",
       xhrFields:{withCredentials: true},
       crossDomain: true,
@@ -99,12 +99,12 @@ html(lang='en')
       	$("#task").append(message);
       },
       success:function(data){
-          script_name = "http://crowd4u.org/js/get_task_remote.js"
+          script_name = "https://crowd4u.org/js/get_task_remote.js"
           $("<script>")
               .attr("src", script_name)
               .appendTo("head");
 
-           var css = $('<link rel="stylesheet" href="http://crowd4u.org/css/embedded_task.css">');
+           var css = $('<link rel="stylesheet" href="https://crowd4u.org/css/embedded_task.css">');
            css.appendTo("head");
       }
       })
