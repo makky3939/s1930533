@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "jade --no-debug index.jade",
+    "build": "pug --no-debug index.pug",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,7 +17,8 @@
     "url": "https://github.com/makky3939/s1721668/issues"
   },
   "homepage": "https://github.com/makky3939/s1721668#readme",
-  "devDependencies": {
-    "jade": "^1.11.0"
+  "dependencies": {
+    "pug": "^2.0.0-rc.4",
+    "pug-cli": "^1.0.0-alpha6"
   }
 }
