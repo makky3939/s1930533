@@ -1,5 +1,5 @@
 {
-  "name": "s1311495",
+  "name": "s1721668",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/makky3939/s1311495.git"
+    "url": "git+https://github.com/makky3939/s1721668.git"
   },
   "author": "makky3939",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/makky3939/s1311495/issues"
+    "url": "https://github.com/makky3939/s1721668/issues"
   },
-  "homepage": "https://github.com/makky3939/s1311495#readme",
+  "homepage": "https://github.com/makky3939/s1721668#readme",
   "devDependencies": {
     "jade": "^1.11.0"
   }
