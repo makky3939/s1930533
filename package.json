@@ -1,5 +1,5 @@
 {
-  "name": "s1721668",
+  "name": "s1930533",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/makky3939/s1721668.git"
+    "url": "git+https://github.com/makky3939/s1930533.git"
   },
   "author": "makky3939",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/makky3939/s1721668/issues"
+    "url": "https://github.com/makky3939/s1930533/issues"
   },
-  "homepage": "https://github.com/makky3939/s1721668#readme",
+  "homepage": "https://github.com/makky3939/s1930533#readme",
   "dependencies": {
     "pug": "^2.0.0-rc.4",
     "pug-cli": "^1.0.0-alpha6"
