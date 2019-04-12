@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "pug --no-debug index.pug",
+    "deploy": "cp -f index.html ~/wwws/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
